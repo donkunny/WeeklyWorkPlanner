@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.lotte.testService.TestService;
 
 @Controller
-public class TestController {
+public class Test3Controller {
 
 	@Inject
 	TestService service;

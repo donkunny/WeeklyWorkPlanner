@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.lotte.testService.TestService;
 
 @Controller
+@RequestMapping("/view/*")
 public class EmpController {
 
 	@Inject
