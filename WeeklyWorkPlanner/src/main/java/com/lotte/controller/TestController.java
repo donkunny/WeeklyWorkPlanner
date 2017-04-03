@@ -21,12 +21,9 @@ public class TestController {
 	@RequestMapping(value="/listAll")
 	public void listAll(Model model) throws Exception{
 		model.addAttribute("list", service.listAll());
-		
-//		for(TestDTO dto : service.listAll()){
-//			System.out.println(dto.getEmpNo());
-//		}
-		
-		
 	}
 	
+	@RequestMapping(value="/index")
+	public void index(Model model) throws Exception{
+	}
 }
