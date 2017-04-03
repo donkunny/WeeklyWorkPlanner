@@ -26,4 +26,9 @@ public class TestController {
 	@RequestMapping(value="/index")
 	public void index(Model model) throws Exception{
 	}
+	
+	@RequestMapping("/test")
+	public void hello(){
+		
+	}
 }

@@ -24,8 +24,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.lotte.controller" />
-	
+	<context:component-scan base-package="com.lotte.controller"></context:component-scan>	
 	<!-- Session을 통한 Login interceptor 구현 -->
 	
 	
