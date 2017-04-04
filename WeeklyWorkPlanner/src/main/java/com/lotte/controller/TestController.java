@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.lotte.testDTO.TestDTO;
 import com.lotte.testService.TestService;
 
 @Controller
@@ -27,7 +26,7 @@ public class TestController {
 	public void index(Model model) throws Exception{
 	}
 	
-	@RequestMapping("/test")
+	@RequestMapping(value="/test")
 	public void hello(){
 		
 	}

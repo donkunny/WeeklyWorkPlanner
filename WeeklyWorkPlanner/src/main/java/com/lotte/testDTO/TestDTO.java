@@ -16,6 +16,7 @@ public class TestDTO {
 	private int comm;
 	private int deptNo;
 	
+	public TestDTO(){}
 	public int getEmpNo() {
 		return empNo;
 	}
